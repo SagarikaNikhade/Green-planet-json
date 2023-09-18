@@ -1,0 +1,17 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "1.npm init -y\r 2.index.js\r 3.npm i json-server\r 4.json-server --watch db.json\r 5.\"start\":\"node index.js\"\r 6.npm start\r 7.git init\r 8.git remote add origin https://github.com/wave2211/mock-json-server.git\r 9. add commit push",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"npx json-server --watch db.json",
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
